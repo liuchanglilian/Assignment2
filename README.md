@@ -133,19 +133,19 @@ Restful APIs for course selection system
        {
 	"studentId": "129",
 	"firstName": "Liliana",
-	 "lastName": "Liu",
-	 "joiningDate": "2018",
-	 "department": "Math"
-      }
+	"lastName": "Liu",
+	"joiningDate": "2018",
+	"department": "Math"
+       }
 3.PUT
   webapi/students
   body:
       {
 	"studentId": "123",
 	"firstName": "Liliana",
-	 "lastName": "La",
-	 "joiningDate": "2018",
-	 "department": "Math"
+	"lastName": "La",
+	"joiningDate": "2018",
+	"department": "Math"
       }
 4.DELETE
   webapi/students/[studentId]
