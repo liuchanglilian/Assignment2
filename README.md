@@ -1,9 +1,9 @@
 # Assignment2
 Restful APIs for course selection system
  
-##Domain:  http://assignment2hw.us-east-2.elasticbeanstalk.com/
+## Domain:  http://assignment2hw.us-east-2.elasticbeanstalk.com/
 
-###<Announcement>
+### <Announcement>
 1.GET
   webapi/announcements
   webapi/announcements/[boardId_announcementId]
@@ -27,7 +27,7 @@ Restful APIs for course selection system
 }
 4.DELETE
   webapi/announcements/[boardId_announcementId]
-###<Board>
+### <Board>
 1.GET
   webapi/boards
   webapi/boards/[boardId]
@@ -51,7 +51,7 @@ Restful APIs for course selection system
        }
 4.DELETE
   webapi/boards/[boardId]
-###<Course>
+### <Course>
 1.GET
   webapi/courses
   webapi/courses/[courseId]
@@ -89,7 +89,7 @@ Restful APIs for course selection system
          }
 4.DELETE:
   webapi/courses/[courseId]
-###<Professor>
+### <Professor>
 1.GET
   webapi/professors
   webapi/professors/[professorId]
@@ -123,7 +123,7 @@ Restful APIs for course selection system
 }
 4.DELETE
   web/professors/[professorId]
-###<Student>
+### <Student>
 1.GET
   webapi/students
   webapi/students/[studentId]
